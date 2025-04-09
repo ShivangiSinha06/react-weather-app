@@ -1,4 +1,62 @@
-.container{
-  max-width: 1080px;
-  margin: 20px auto;
+.container.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container.dark {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.weather-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.container.dark .weather-info {
+  background-color: #444;
+  border-color: #555;
+}
+
+.recent-searches {
+  margin-top: 20px;
+}
+
+.recent-searches ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-searches li {
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.container.dark .recent-searches li {
+  color: lightblue;
+}
+
+button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container.dark button {
+  background-color: #555;
+  color: #f0f0f0;
+  border-color: #777;
+}
+
+.container.dark button:disabled {
+  background-color: #777;
+  color: #bbb;
+  cursor: not-allowed;
 }
