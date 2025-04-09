@@ -1,0 +1,1 @@
+export const API_URL = 'https://api.openweathermap.org/data/2.5/weather?q={city}&amp;appid={07bfda33beaaef2d2da183a6c5a87321}&amp;units=metric';
